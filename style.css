@@ -1,0 +1,217 @@
+/* ############ GENERAL SETTINGS ############ */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+    width: fit-content;
+}
+
+/* ############ PAGE SECTIONS ############ */
+
+.section_1 {
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.section_2, .section_4 {
+    background-color: white;
+}
+
+.section_3 {
+    background-color: #E5E7EB;
+}
+
+.container_1, .container_2 {
+    margin: auto;
+    width: 1000px; 
+}
+
+.container_3, .container_4 {
+    margin: auto;
+    width: 800px;
+}
+
+/* ############ SECTION 1 - HEADER ############ */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header h3 {
+    margin: 18px 0px 0px 0px;
+    font-size: 18px;
+}
+
+ul {
+    margin: 18px 0px 0px 0px;
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: #3882F6;
+}
+
+/* ############ SECTION 1 - HERO ############ */
+
+.hero_container {
+    display: flex;
+    padding: 72px 0px 120px;
+    gap: 18px; 
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+div.hero_text h1 {
+    font-size: 48px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.hero_text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.hero_text a {
+    background-color: #3882F6;
+    padding: 4px 24px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+div.hero_text a:hover{
+    background-color: #8eb2ec;
+}
+
+img {
+    color: #F9FAF8;
+    background-color: grey;
+    flex: 1 1 0;
+    text-align: center;
+    line-height: 180px;
+}
+
+
+/* ############ SECTION 2 - CARDS ############ */
+
+.container_2 {
+    padding-bottom: 5%;
+}
+
+.container_2 h3 {
+    text-align: center;
+}
+
+.container_2 h3 {
+    margin: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    justify-content: center;
+}
+
+.placeholder {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    height: 180px;
+    width: 180px;
+}
+
+.text {
+    text-align: center;
+}
+
+/* ############ SECTION 3 - CITATION ############ */
+
+.cit {
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 92px 0px 8px;
+    margin: 0px;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 0px 92px;
+    margin: 0px;
+    text-align: end;
+}
+
+/* ############ SECTION 4 - CTA ############ */
+
+
+.container_4 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px;
+}
+
+.cta_text h4, .cta_text p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cta_link {
+    border: 2px solid white;
+    height: fit-content;
+    border-radius: 6px;
+    padding: 4px 24px;
+}
+
+.cta_link:hover {
+    background-color: white;
+    color: #3882F6;
+}
+
+
+/* ############ FOOTER ############ */
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer p {
+    padding: 24px;
+    margin: 0px;
+}
